@@ -1,0 +1,12 @@
+{
+	"currentRelease": "1.48.1",
+	"releases": [
+		{
+			"version": "1.48.1",
+			"updateTo": {
+				"version": "1.48.1",
+				"url": "https://go.microsoft.com/fwlink/?linkid=2275502"
+			}
+		}
+	]
+}
