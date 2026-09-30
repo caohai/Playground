@@ -12,7 +12,9 @@ The dataset pins the task to an immutable Git commit:
 ```bash
 msbench-cli run \
   --config fix_validation \
-  --dataset msbench/datasets/sql-server-ces-poc.jsonl
+  --dataset msbench/datasets/sql-server-ces-poc.jsonl \
+  --benchmark sql-server-ces-poc \
+  --runner_type harbor
 ```
 
 The task uses a fixed, non-secret SQL administrator password for the isolated
